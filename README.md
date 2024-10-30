@@ -1,48 +1,31 @@
-# **Thema:** Erstellen einer ToDo-Applikation mit Markdown, Git, GitHub und Docker
+# Klonen des Repositories
+**Die 7 Schritte um ein Repository zu klonen**
 
-In dieser Abschlussaufgabe werden alle erlernten Fähigkeiten in den Bereichen **Markdown**, **Git**, **GitHub** und **Docker** kombiniert. Die Aufgabe besteht darin, eine ToDo-Applikation zu erstellen und diese in einem Docker-Container bereitzustellen.
+1. Zuerst zum Repository.
+2. Dann auf <> Code klicken.
+3. URL kopieren.
+4. Dann Git Bash öffnen.
+5. Mit "cd" im richtigen Ordner navigieren.
+6. Jetzt "git clone" eingeben und die kopierte URL einfügen und Enter drücken.
 
-### **Aufgabenstellung:**
+Schon hat man sein repository geklont.
 
-1. **GitHub-Fork erstellen:**
-   - Erstelle einen **Fork** des folgenden GitHub-Repositories: [docker-nodejs-sample](https://github.com/ICT-BLJ/docker-nodejs-sample).
-   - Clone deinen Fork lokal auf deinen Computer.
+# Installation der notwendigen Pakete
+Bevor Sie ein Paket von GitHub installieren können, müssen Sie Ihr Paket authentifizieren.
+- "GITHUB_TOKEN" für die Veröffentlichung von Paketen, die mit dem Workflow Repository verbunden sind.
+- Um Pakete aus anderen privaten Repositories zu installieren, benötigen Sie mindestens den Bereich "read:packages", da Sie ein persönliches Zugriffstoken benötigen.
 
-2. **Erstellen einer README-Datei in Markdown:**
-   - Erstelle eine **README.md** Datei im Root-Verzeichnis des Projekts.
-   - Die README soll alle Schritte zur **Installation des Projekts** enthalten. Dazu gehören:
-     - Klonen des Repositories
-     - Installation der notwendigen Pakete
-     - Docker-Konfiguration und -Installation
-     - Starten der Applikation in einem Docker-Container
-   - Nutze [Markdown](https://www.markdownguide.org/cheat-sheet/) für die Struktur und Formatierung der Datei.
+Danach müssen Sie das Paket gemäss den Anweisungen des Paket-Clients installieren.
 
-3. **Dokumentation der Vorgehensweise:**
-   - Verfasse eine vollständige **Dokumentation in Word**, in der die Arbeitsschritte beschrieben werden. Diese Schritte sind:
-     - Klonen des Repositories
-     - Einrichtung der Entwicklungsumgebung
-     - Erstellung der README.md
-     - Verwendung von Git (Commit, Push)
-     - Erstellung und Nutzung von Docker-Containern
-   - Verwende die während des Office-Kurses erarbeiteten Kenntnisse für das Erstellen dieses Dokuments.
+# Docker-Konfiguration und -Installation
+Um Docker zu installieren, müssen Sie zunächst
+1. Installieren Sie Docker auf der Website.
+2. Anschliessend muss die .exe Datei geöffnet werden.
+3. Folgen Sie den Anweisungen und registrieren Sie sich am Ende.
 
-4. **Dockerize das Node.js-Projekt:**
-   - Verfolge die Anleitung unter [docs.docker.com](https://docs.docker.com/guides/language/nodejs/containerize/) ab dem Schritt **"Initialize Docker inits"**.
-   - Dein Ziel ist es, das Projekt in einem Docker-Container lauffähig zu machen, sodass am Ende eine **ToDo-Applikation** in einem Docker-Container bereitsteht.
+# Starten der Applikation in einem Docker-Container
+Um den Container zu starten, ist wie folgt vorzugehen:
 
-5. **Git-Workflows:**
-   - Arbeite mit **Git**, um Änderungen regelmäßig zu committen und auf GitHub zu pushen.
-   - Verwende sinnvolle Commit-Nachrichten, um deinen Fortschritt zu dokumentieren.
-   - Stelle sicher, dass dein finaler Stand auf GitHub vorhanden ist.
-
-6. **Abgabe:**
-   - **Dokumentation:** Lade die erstellte Word-Dokumentation (inkl. Screenshots und Beschreibung der Schritte) in dein Repository hoch.
-   - **GitHub-Link:** Stelle den Link zu deinem GitHub-Repository bereit, das den finalen Stand des Projekts enthält.
-
-### **Ziele der Aufgabe:**
-- Anwendung und Vertiefung von Git und GitHub.
-- Verfassen einer strukturierten Anleitung mit Markdown.
-- Containerisieren einer Node.js-Anwendung mit Docker.
-- Dokumentation des gesamten Prozesses in einem Word-Dokument.
-  
-Viel Erfolg bei der Umsetzung!
+1. Zuerst muss der Conrainer eingeschaltet werden, damit er benutzt werden kann.
+2. danach muss man in einen Browser gehen und folgendes eingeben:
+3. "localhost:" und dann den Port ein.
